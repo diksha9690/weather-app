@@ -1,6 +1,6 @@
 body{
   position: relative;
-  background-image: url("background img.jpg");
+  background-image: url("./background\ img.jpg");
   background-size: cover;
   height: 100vh;
   width: 100vw;
