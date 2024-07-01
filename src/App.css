@@ -1,0 +1,140 @@
+body{
+  position: relative;
+  background-image: url("background img.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content{
+  border: 2px solid rgb(248, 241, 241);
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+font-family: cursive;
+height: 500px;
+color: rgb(55, 52, 52);
+position:absolute;
+
+}
+.Cardlist{
+  display: flex;
+  position: absolute;
+  bottom: 24%;
+  
+  
+}
+.card-img{
+  height: 70px;
+  width: 70px;
+}
+.main-card-img {
+  height: 100px;
+  width: 100px;
+ 
+}
+.btn{
+  background-color: rgb(100, 183, 243);
+  margin-left: -10px;
+  color: white;
+  width: 200px;
+}
+.small-card{
+  border: 2px solid rgb(103, 102, 100);
+ 
+}
+.weeks-card{
+  
+ 
+    margin: 10px;
+    width: 100px;
+   width: 13rem;
+    height:12rem;
+    display: flex;
+    /* background-color: white; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.week-cards-box{
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+}
+@media (min-width:786px ) and (max-width:1024px ) {
+  /* .week-cards-cox{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  } */
+  .weeks-card{
+  width: 9rem;
+  margin: 5px;
+  }
+}
+@media (max-width:786px )  {
+  
+  .weeks-card{
+    width: 23rem;
+    height: 3rem;
+    flex-direction: row;
+
+    
+    
+    }
+    .content{
+      display: flex;
+     width: 86vw;
+     
+      
+      }
+      .week-cards-box{
+        position: absolute;
+    
+    flex-direction: column;
+        bottom: 1%;
+        display: flex;
+      
+        margin: auto;
+        
+      }
+    
+    .card-body{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .card-img{
+      height: 2rem;
+      width: 2rem;
+      background-color: none;
+      
+    }
+    .main-card-img{
+      height: 60px;
+      width: 60px;
+      top: -1%;
+    }
+    .today{
+      display:none;
+    }
+  
+}
+@media (max-width:430px ){
+  .weeks-card{
+    width: 18rem;
+    height: 3rem;
+    flex-direction: row;
+
+    
+    
+    }
+    .main-card-img{
+     
+      top: 10%;
+      
+    }
+}
